@@ -1,0 +1,44 @@
+body {
+  background-color: #eeeeee;
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Courier', arial, verdana, sans-serif;
+}
+#container {
+  margin: 0 auto;
+}
+#board {
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+  background-image: url("../img/animal_abc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#menu {
+  margin: 0;
+  padding: 5px;
+  display: inline;
+}
+h1 {
+  text-align: right;
+  margin: 0 30px 0 0;
+}
+ul {
+  display: inline;
+}
+li {
+  display: inline;
+  list-style: none;
+}
+button {
+  font-size: 20px;
+  text-decoration: none;
+  margin: 5px 5px 0 0;
+  background-color: transparent;
+  border: 2px dotted black;
+}
+button:hover {
+  border: 2px solid black;
+}
